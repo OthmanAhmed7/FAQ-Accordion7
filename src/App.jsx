@@ -1,6 +1,6 @@
 import "./index.css";
 import Background from "./components/Background";
-import Faq from "./components/faq";
+import Faq from "./components/Faq";
 
 function App() {
   return (
