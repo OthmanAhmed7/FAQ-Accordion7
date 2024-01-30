@@ -16,11 +16,7 @@ const Accordion = (props) => {
         >
           <h3 className="font-medium">{props.question}</h3>
           <img
-            src={
-              toggleFaq
-                ? "../../public/images/icon-minus.svg"
-                : "../../public/images/icon-plus.svg"
-            }
+            src={toggleFaq ? "images/icon-minus.svg" : "images/icon-plus.svg"}
             alt="toggle icon"
           />
         </div>
